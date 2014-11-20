@@ -5,6 +5,6 @@ idxFile = join config.pubdir, 'index.html'
 
 # serve spa
 app.get '/*', (req, res) ->
-  res.sendfile idxFile
+  res.sendFile idxFile
 
 module.exports = app
